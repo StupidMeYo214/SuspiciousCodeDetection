@@ -1,0 +1,19 @@
+1. Suspicious Lines and Weight Calculation:
+Is the table required in the project description. The last two columns "Suspicious Code(Unsorted
+Ranked by Suspicious Weight)" and "Suspicious Code(Sorted)" are the most suspicois(those has the largest weight) codes get from the runs.
+
+2. suspicious codes (screen shots):
+It contains the most suspicious lines' screen shots marked by yellow highlight lines. The results
+are based on the  "Suspicious Lines and Weight Calculation" file.
+
+3. execution route matrix:
+A matrix resenting the 100 test case execution statas of each line in program. 1 stand for executed, 0 stands for not executed.
+
+4. runs matrix:
+The matrix presenting the execution statas in each run.
+
+5. suspicious weights calculation results and ranks:
+It contains the execution matrix of each run and the calculation assigning suspiciousness weights
+to each line. It's ranked line by line according to the weights we calculated.
+You can check the suspicious lines that may not shown in "suspicious Lines and Weight Calculation" 
+file.
